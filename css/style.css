@@ -1,4 +1,20 @@
-h1
-{
-	color:red;
+:root {
+	--tomato: #f55d3e;
+	--gray: #878e88;
+	--jonqull: #F7CB15;
+	--white: #FFFFFF;
+	--skyblue: #76BED0;
+}
+
+body {
+	background-color: var(--gray);
+}
+
+h1 {
+	color: var(--jonqull);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
